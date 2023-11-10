@@ -1,0 +1,170 @@
+{
+    "cc1": {
+        "monday": [
+            "-",
+            "-",
+            "Cálculo I",
+            "Cálculo I",
+            "Circuitos Digitais",
+            "Circuitos Digitais"
+        ],
+        "tuesday": [
+            "-",
+            "-",
+            "Circuitos Digitais",
+            "Circuitos Digitais",
+            "Estruturas de Dados",
+            "Estruturas de Dados"
+        ],
+        "wednesday": [
+            "-",
+            "-",
+            "Geometria Analítica",
+            "Geometria Analítica",
+            "Cálculo I",
+            "Cálculo I"
+        ],
+        "thursday": [
+            "-",
+            "-",
+            "Estrutura de Dados",
+            "Estrutura de Dados",
+            "Probabilidade e Estatística",
+            "Probabilidade e Estatística"
+        ],
+        "friday": [
+            "-",
+            "-",
+            "Probabilidade e Estatística",
+            "Probabilidade e Estatística",
+            "Geometria Analítica",
+            "Geometria Analítica"
+        ]
+    },
+    "cc2": {
+        "monday": [
+            "-",
+            "-",
+            "Probabilidade e Estatística",
+            "Probabilidade e Estatística",
+            "Geometria Analítica",
+            "Geometria Analítica"
+        ],
+        "tuesday": [
+            "-",
+            "-",
+            "Estrutura de Dados",
+            "Estrutura de Dados",
+            "Probabilidade e Estatística",
+            "Probabilidade e Estatística"
+        ],
+        "wednesday": [
+            "-",
+            "-",
+            "Geometria Analítica",
+            "Geometria Analítica",
+            "Cálculo I",
+            "Cálculo I"
+        ],
+        "thursday": [
+            "-",
+            "-",
+            "Circuitos Digitais",
+            "Circuitos Digitais",
+            "Estruturas de Dados",
+            "Estruturas de Dados"
+        ],
+        "friday": [
+            "-",
+            "-",
+            "Cálculo I",
+            "Cálculo I",
+            "Circuitos Digitais",
+            "Circuitos Digitais"
+        ]
+    },
+    "cs1": {
+        "monday": [
+            "-",
+            "-",
+            "Mat. 1",
+            "Mat. 1",
+            "Mat. 2",
+            "Mat. 2"
+        ],
+        "tuesday": [
+            "-",
+            "-",
+            "Mat. 2",
+            "Mat. 2",
+            "Mat. 3",
+            "Mat. 3"
+        ],
+        "wednesday": [
+            "-",
+            "-",
+            "Mat. 4",
+            "Mat. 4",
+            "Mat. 1",
+            "Mat. 1"
+        ],
+        "thursday": [
+            "-",
+            "-",
+            "Mat. 5",
+            "Mat. 5",
+            "Mat. 6",
+            "Mat. 6"
+        ],
+        "friday": [
+            "-",
+            "-",
+            "Mat. 6",
+            "Mat. 6",
+            "Mat. 4",
+            "Mat. 4"
+        ]
+    },
+    "cs2": {
+        "monday": [
+            "-",
+            "-",
+            "Mat. 7",
+            "Mat. 7",
+            "Mat. 8",
+            "Mat. 8"
+        ],
+        "tuesday": [
+            "-",
+            "-",
+            "Mat. 8",
+            "Mat. 8",
+            "Mat. 3",
+            "Mat. 3"
+        ],
+        "wednesday": [
+            "-",
+            "-",
+            "Mat. 9",
+            "Mat. 9",
+            "Mat. 7",
+            "Mat. 7"
+        ],
+        "thursday": [
+            "-",
+            "-",
+            "Mat. 5",
+            "Mat. 5",
+            "Mat. 6",
+            "Mat. 6"
+        ],
+        "friday": [
+            "-",
+            "-",
+            "Mat. 6",
+            "Mat. 6",
+            "Mat. 9",
+            "Mat. 9"
+        ]
+    }
+}

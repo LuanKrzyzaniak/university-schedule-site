@@ -1,0 +1,12 @@
+[
+    {
+        "id" : 1,
+        "name":"Ciências da Computação",
+        "coord":"O Pai, o Filho e o Espírito Santo"
+    },
+    {
+        "id" : 2,
+        "name":"Ciências Sociais",
+        "coord":"O Príncipe de Maquiavel"
+    }
+]
