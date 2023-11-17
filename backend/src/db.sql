@@ -45,8 +45,8 @@ CREATE TABLE  if not exists daily(
 
 CREATE TABLE  if not exists ccr(
     ccrid serial,
-    cid integer not null,
+    mid integer not null,
     ccrname varchar(32) not null,
-    constraint pk_ccr primary key (ccrid)
-    --constraint fk_ccr_major foreign key major(mid)
+    constraint pk_ccr primary key (ccrid),
+    constraint fk_ccr_major foreign key major(mid)
 );

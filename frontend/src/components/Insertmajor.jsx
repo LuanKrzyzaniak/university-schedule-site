@@ -1,6 +1,8 @@
 import { Button } from "@mui/material";
 import Banner from "./Banner";
 import axios from "axios";
+import { useEffect } from "react";
+import { useState } from "react";
 
 function Insertmajor (){
 
@@ -18,23 +20,26 @@ function Insertmajor (){
         });
     }
 
-    const[majors,setMajors] = useState({});
+    // const[majors,setMajors] = useState({});
 
-    useEffect(() =>{
-        axios.get("http://localhost:6969/getmajors")
-        .then((query) => {
-           setMajors(query.data);
-        })
-        .catch((err) => {
-            if(err) throw(err);
-        });
-    }, []);
+    // useEffect(() =>{
+    //     axios.get("http://localhost:6969/getmajors")
+    //     .then((query) => {
+    //        setMajors(query.data);
+    //     })
+    //     .catch((err) => {
+    //         if(err) throw(err);
+    //     });
+    // }, []);
 
     return (
         <>
             <Banner/>
             <div className="divheader" style={{paddingTop:'12rem'}}>
                 <header>
+                <a href="../">
+                    VOLTAR
+                </a>
                     <h1>CADASTRAR CURSO</h1>
                     <p>Preencha o formulário abaixo para inserir o curso.</p>
                     <form>

@@ -53,13 +53,46 @@ app.post("/sendmajor", async (req, res) => {
     }
 });
 
+app.post("/sendCCR", async (req, res) => {
+    try {
+        const mid = req.body.mid;
+        const ccrname = req.body.ccrname;
+
+        if (mname === '' || mdesc === '') {
+            console.log(error);
+            res.status(400);
+            return
+        }
+
+        db.none(
+            "INSERT INTO ccr (mid, ccrname) VALUES ($1, $2);",
+            [mid, ccrname]
+        );
+        res.sendStatus(200);
+    } catch (error) {
+        console.log(error);
+        res.sendStatus(400);
+    }
+});
+
 app.get("/schedule", (req,res) =>{ //receber info
     res.json(schedule);
 });
 
-app.get("/getmajors") {
-    
-}
+// app.get("/getmajors", (req,res) => {
+//     try {
+//         const query = db.query(
+//             "SELECT * FROM major;"
+//         )
+//         query.then((res) => {
+//             console.log(res)
+//         }) 
+//     } catch (error) {
+//         console.log(error);
+//         res.sendStatus(400);
+        
+//     }
+// });
 
 app.listen(port,() => {
     console.log(`Server opened on PORT ${port} :)`);
